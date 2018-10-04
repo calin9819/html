@@ -11,52 +11,59 @@
 
 .motto {
     color: lightslategray;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     width: 30%;
     float: left;
     position: relative;
-    top: 2px;
+    top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 
 .contact {
     float: right;
     position: relative;
     text-decoration: none;
-    color: gray;
-    font-size: 1vw;
+    color: lightslategray;
+    top: 30px;
+    right: 50px;
+    width:20%
 }
 
 .span {
     position: relative;
+    font-size: 1.5vw;
 }
+
+
 
 #bara_sus {
     background-color: rgb(79, 79, 79);
     width: 100%;
-    height: 20px;
-
+    height: 35px;
+    margin: 0;
+    padding: 0;
 }
 
-
-.linkedintext {
-    position: relative;
-    bottom: 6px;
-}
-
-.facebooktext {
-    position: relative;
-    bottom: 5px;
+body {
+    margin: 0;
 }
 
 .language {
     float: right;
     text-decoration: none;
-    color: white;
+    color: lightgray;
     padding-right: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 13px;
     position: relative;
-    top: 5px;
+    top: 10px;
 }
 
 .social_media {
@@ -64,97 +71,79 @@
     text-decoration: none;
     color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3vw;
+    font-size: 13px;
     padding-right: 20px;
 }
 
-.nav {
-    background-color: rgb(00, 31, 51);
-    display: inline;
+.social-media-logo {
+    height: 100%;
 }
 
-.navli {
-    display: inline;
-    text-decoration: none;
+.social-media-text {
+    position: relative;
+    bottom: 12px;
 }
 
-
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 1150px) {
     .contact {
-        top: 2px;
+        top: 20px;
     }
+
     .span {
-        bottom: 2px;
-    }
-
-    #phone-text {
-        bottom: 4px;
-    }
-
-}
-
-@media screen and (min-width: 360px) {
-    #phone-text {
-        bottom: 4px;
+        font-size: 1.7vw;
     }
 }
 
-@media screen and (min-width: 375px) {
-    #phone-text {
-        bottom: 3px;
-    }
-
-}
-
-@media screen and (min-width: 411px) {
+@media screen and (max-width: 990px) {
     .contact {
-        top: 2px;
+        top: 15px;
     }
+
     .span {
-        bottom: 2px;
-    }
-
-    #phone-text {
-        bottom: 4px;
-    }
-}
-
-@media screen and (min-width: 650px) {
-    .linkedintext {
-        bottom: 5px;
-        font-size: 7px;
-    }
-
-    .facebooktext {
-        bottom: 4px;
-        font-size: 7px;
+        font-size: 1.6vw;
     }
 
 }
 
-@media screen and (min-width: 768px) {
+
+@media screen and (max-width: 750px) {
     .contact {
         top: 10px;
     }
 
     .span {
-        bottom: 3px;
+        font-size: 1.5vw;
     }
 
 }
 
-@media screen and (min-width: 1024px) {
-    .span {
-        bottom: 4px;
-    }
-
-    #phone-text {
-        bottom: 6px;
-    }
-
+@media screen and (max-width: 640px) {
     .contact {
-        font-size: 10px;
+        display: none;
+    }
 
+    .logo {
+        width: 40%;
+    }
+
+    .motto {
+        width: 60%;
+        font-size: 3vw;
+        position: relative;
+        top: 5px;
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .social-media-text {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .motto {
+        top: 0px;
     }
 
 }
