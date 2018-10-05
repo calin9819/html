@@ -6,8 +6,8 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
-    <div style="position: fixed; width: 100%;">
-        <div id= "bara_sus">
+
+      <div id= "bara_sus">
             <a class="language" href="#">EN</a>
             <a class="language" href="#">DE</a>
             <a class="language" href="#" style="font-weight: bold">RO</a>
@@ -23,72 +23,75 @@
             </a>
         </div>
 
+        <div>
+            <ul class="header">
+                <li class="headerli">
+                        <img class="logo" src="Images/lacoli-home.png" alt="Lacoli Home"/>
+                </li>
 
-        <ul class="header">
-            <li class="headerli">
-                    <img class="logo" src="Images/lacoli-home.png" alt="Lacoli Home"/>
-            </li>
-            <li class="headerli">
-                    <p class="motto">Promptitudine / Rapiditate / Calitate</p>
-            </li>
+                <li class="headerli">
+                        <span class="motto">Promptitudine / Rapiditate / Calitate</span>
+                </li>
 
-            <li class="headerli">
-                    <a class="contact" href="#">
-                            <img  src="Images/phone-icon.png" alt="phone-icon" style=" height: 100%; position: relative; top: 2px;"/>
-                            <span class="span" id= "phone-text">0040 248 216970</span>
-                        </a>
-            </li>
+                <li class="headerli">
+                        <a class="contact" href="#">
+                                <img  src="Images/phone-icon.png" alt="phone-icon"/>
+                                <span class="span" id= "phone-text">0040 248 216970</span>
+                            </a>
+                </li>
 
-            <li class="headerli">
-                    <a class="contact" href="#">
-                            <img  src="Images/mail-icon.png" alt="mail-icon" style="height: 100%; position: relative; top: 2px;"/>
-                            <span class="span">office@compactlacoli.ro</span>
-                        </a>
-            </li>
+                <li class="headerli">
+                        <a class="contact" href="#">
+                                <img  src="Images/mail-icon.png" alt="mail-icon"/>
+                                <span class="span">office@compactlacoli.ro</span>
+                            </a>
+                </li>
 
-        </ul>
+            </ul>
+        </div>
+        <div>
+            <ul class="nav">
+                <li class="navli"> 
+                    <a href="#">
+                        ACASA
+                    </a>
+                </li>
+                <li class="navli"> 
+                    <a href="#">
+                        DESPRE&nbspNOI
+                    </a>
+                </li>
+                <li class="navli"> 
+                    <a href="#">
+                        SERVICII
+                    </a>
+                </li>
+                <li class="navli"> 
+                    <a href="#">
+                        CERERE&nbspOFERTA
+                    </a>
+                <li class="navli"> 
+                    <a href="#">
+                        CONTACT
+                    </a>
+                </li>
 
-        <ul class="nav">
-            <li class="navli"> 
-                <a href="#">
-                    ACASA
-                </a>
-            </li>
-            <li class="navli"> 
-                <a href="#">
-                    DESPRE&nbspNOI
-                </a>
-            </li>
-            <li class="navli"> 
-                <a href="#">
-                    SERVICII
-                </a>
-            </li>
-            <li class="navli"> 
-                <a href="#">
-                    CERERE&nbspOFERTA
-                </a>
-            <li class="navli"> 
-                <a href="#">
-                    CONTACT
-                </a>
-            </li>
-
-            <li id="last" style="padding-right: 20px;">
-                <a href="#">
-                    <img id= "location" src="Images/location-pin.png" alt="location_pin" style="height: 51px;">
-                    <span id="tracking" >ONLINE TRUCK TRACKING</span>
-                </a>
-            </li>
-        </ul>
+                <li id="last">
+                    <a href="#">
+                        <img id= "location" src="Images/location-pin.png" alt="location_pin" style="height: 51px;">
+                        <span id="tracking" >ONLINE TRUCK TRACKING</span>
+                    </a>
+                </li>
+            </ul>
     </div>
-
     <div>
         <div id="text-principal" style="display: block;">
-            <h2>Compact Lacoli</h2>
+            
 
             <img  id="poza-camioane" src="Images/camioane.png" alt="camioane">
 
+            <h2>Compact Lacoli</h2>
+            
             <p class= "text">Compact Lacoli este o societate comerciala care a fost infiintata in anul 1991, iar activitatea de transport a inceput sa se 
                 desfasoare in anul 2000. Experienta de 15 ani in domeniul transportului international de marfa, flota de 75 de camioane, cei 
                 105 angajati, cat si cifra de afaceri de peste 6.7 milioane de euro ne recomanda ca fiind o companie serioasa, care a dezvoltat
@@ -108,17 +111,50 @@
                 Urmarim si gestionam eficient flota prin sisteme GPS/GSM/GPRS. Oferim clientilor posibilitatea de a consulta pozitia camioanelor
                 angajate direct prin sistemul de tracking GPS. Pentru siguranta marfii transportate avem asigurare CMR.
             </p>
+
+            
         </div>
 
-        <!--<div>
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>  
-                <div>4</div>
+        <div style="width:100%; margin-top:40px;">
+                <div class="column">
+                    <img src="Images/medalie.png" alt="medalie">
+                    <br>
+                    <span class="detalii">Operam de 15 ani pe piata de transporturi</span>
+                </div>
+                <div class="column">
+                    <img src="Images/camion.png" alt="camion">
+                    <br>
+                    <span class="detalii">75 de camioane in flota</span>
+                </div>
+                <div class="column">
+                    <img src="Images/ceas.png" alt="ceas">
+                    <br>
+                    <span class="detalii">Mereu la timp 9 ani curse regulate cu orar zilnic</span>
+                </div>  
+                <div class="column">
+                    <img src="Images/tracker.png" alt="tracker">
+                    <br>
+                    <span class="detalii">Sistem de tracking pus la dispozitia clientului</span>
+                </div>
         </div>
-    -->
+
+        <div>
+            <h2 id="clientii-nostri" style="font-family:Arial, Helvetica, sans-serif; color: gray; text-align: center;">Clientii nostri</h2>
+            <img class="masina" src="Images/mercedes.png" alt="mercedes">
+            <img class="masina" src="Images/volvo.png" alt="volvo">
+            <img class="masina" src="Images/volkswagen.png" alt="volkswagen">
+            <img class="masina" src="Images/skoda.png" alt="skoda">
+            <img class="masina" src="Images/hyundai.png" alt="hyundai">
+        </div>
 
     </div>
 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 </body>
 </html>
