@@ -9,6 +9,14 @@
 
 }
 
+li a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
 .motto {
     color: lightslategray;
     font-size: 1.5vw;
@@ -24,6 +32,29 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    background-color: rgb(1, 54, 88);
+    position: fixed;
+    top: 140px;
+    width: 100%;
+    height: 51px;
+}
+
+.navli {
+    float: left;
+    padding: 10px;
+    position: relative;
+    top: 6px;
+}
+
+#last {
+    float: right; 
+    background-color: rgb(12.4, 145.3, 231.1); 
+    height: 51px;
+}
+
+#tracking {
+    position: relative; 
+    bottom: 19px;
 }
 
 .contact {
@@ -84,13 +115,35 @@ body {
     bottom: 12px;
 }
 
+#poza-camioane {
+    float: right; 
+    position: relative; 
+    bottom: 50px; 
+    padding-right: 50px;
+}
+
+#text-principal {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 210px;
+    padding: 50px;
+    font-size: 15px;
+}
+
+p.text, h2 {
+    padding: 0 50px;
+}
+
+
+
 @media screen and (max-width: 1150px) {
     .contact {
         top: 20px;
     }
 
     .span {
-        font-size: 1.7vw;
+        font-size: 1.5vw;
     }
 }
 
@@ -100,21 +153,71 @@ body {
     }
 
     .span {
-        font-size: 1.6vw;
+        font-size: 1.5vw;
     }
 
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
     .contact {
         top: 10px;
     }
 
     .span {
-        font-size: 1.5vw;
+        font-size: 1.4vw;
     }
 
+    .nav {
+        height: 243px;
+        display: block;
+        top: 100px;
+    }
+
+    .navli {
+        float: none;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    #last {
+        float: none;
+        text-align: center;
+    }
+
+    #tracking {
+        width: 100%;
+        bottom: 0;
+        top: 16px;
+    }
+
+    #location {
+        display: none;
+    }
+
+    #text-principal {
+        top: 400px;
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    
+    #poza-camioane {
+        display: block;
+        float: none;
+        width: 75%;
+        margin: 0 10vw;
+    }
+
+    h2 {
+        display: block;
+        padding-bottom: 50px;
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -127,11 +230,14 @@ body {
     }
 
     .motto {
-        width: 60%;
+        width: 59%;
         font-size: 3vw;
         position: relative;
-        top: 5px;
-        left: 10px;
+        left: 20px;
+    }
+
+    .nav {
+        top: 125px;
     }
 }
 
@@ -144,6 +250,20 @@ body {
 @media screen and (max-width: 319px) {
     .motto {
         top: 0px;
+    }
+
+}
+
+@media screen and (min-width: 1441px) {
+    .nav{
+        top: 150px;
+    }
+
+}
+
+@media screen and (min-width: 1700px) {
+    .nav{
+        top: 200px;
     }
 
 }
